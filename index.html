@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Add Items</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+
+        <br><br>
+        <h1 id="head">Grocery Shopping List</h1>
+        <br>
+        <label for="deptSelect"></label>
+        <form id="adnform" action="">
+
+            <table>
+                
+                <tr>
+                  <td>Name</td>
+                  <td><input type="text" name="itemname" id="iname"></td>
+                  
+                </tr>
+                <tr>
+                  <td>Quantity</td>
+                  <td><input type="number" name="itemnum" id="inum"></td>
+                  
+                </tr>
+                <tr>
+                    <td>Unit</td>
+                    <td><select name="unitselect" id="tbox1">
+                        <option value="kg">kg</option>
+                        <option value="litre">litre</option>
+                        <option value="number">number</option>
+                        <option value="packer">packer</option>
+                    </select></td>
+                    
+                  </tr>
+                  <tr>
+                    <td>Department</td>
+                    <td><select name="deptselect" id="tbox2">
+                        <option value="Food Item">Food Item</option>pt
+                        <option value="Personal Care ">Personal Care </option>
+                        <option value="Stationary">Stationary</option>
+                        <option value="Other">Other</option>
+                    </select></td>
+                    
+                  </tr>
+                  <tr>
+                    <td>notes</td>
+                    <td><input id = "tbox3" type="text" name="itemnotes"></td>
+                    
+                  </tr>
+              </table>
+              <br>
+              <button id="adnewbt">Add To List</button>
+              <!-- <input id="deptSelect" class="print" type="button" value="View List"> -->
+              <div id="msg">
+                <table id="tbl1"></table>
+                <table id="tbl2"></table>
+            </div>
+        
+            
+        </form>
+        
+        <script src="addnew.js"></script>
+    </body>
+</html>

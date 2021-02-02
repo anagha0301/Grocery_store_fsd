@@ -1,0 +1,63 @@
+{
+    "list":[
+        {
+            
+            "Name":"Sanitizer",
+            "Quantity":"3",
+            "Unit":"Number",
+            "Department":"Stationary",
+            "Notes":"Dabur"
+        },
+        {
+            
+            "Name":"Apple",
+            "Quantity":"2",
+            "Unit":"kg",
+            "Department":"Food",
+            "Notes":"Organic"
+        },
+        {
+            
+            "Name":"Coconut",
+            "Quantity":"5",
+            "Unit":"Number",
+            "Department":"Food",
+            "Notes":"nil"
+        },
+        {
+            
+            "Name":"Potato",
+            "Quantity":"2.5",
+            "Unit":"kg",
+            "Department":"Food",
+            "Notes":"Organic"
+        },
+        {
+            
+            "Name":"Books",
+            "Quantity":"5",
+            "Unit":"Number",
+            "Department":"Stationary",
+            "Notes":"A4 size unruled"
+        },
+        {
+            
+            "Name":"Pen",
+            "Quantity":"3",
+            "Unit":"Number",
+            "Department":"Stationary",
+            "Notes":"blue ink"
+        },
+       
+       
+        {
+            
+            "Name":"Soap",
+            "Quantity":"5",
+            "Unit":"Number",
+            "Department":"Health",
+            "Notes":"Dove"
+        }
+      
+    ]
+}
